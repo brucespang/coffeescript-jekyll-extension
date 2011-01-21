@@ -1,0 +1,19 @@
+h1. CoffeeScript Jekyll Extension
+
+Autocompiles CoffeeScript into Javascript for use with Jekyll
+
+This extension requires "_jekyll_ext_":http://github.com/rfelix/jekyll_ext.
+
+h2. Install
+
+$ gem install jekyll
+$ gem install jekyll_ext
+
+$ git clone git://github.com/brucespang/coffeescript-jekyll-extension.git
+If _extensions/ doesn't exist:
+$ mkdir _extensions
+$ cp coffeescript.rb _extensions/
+
+h2. Running
+
+$ ejekyll --server
